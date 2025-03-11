@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alperen\\source\\repos\\MovieWebSite\\MovieWebSite\\MovieWebSite.csproj": {}
+    "C:\\Users\\Alperen\\source\\repos\\web_server_projects\\MovieWebSite\\MovieWebSite\\MovieWebSite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alperen\\source\\repos\\MovieWebSite\\MovieWebSite\\MovieWebSite.csproj": {
+    "C:\\Users\\Alperen\\source\\repos\\web_server_projects\\MovieWebSite\\MovieWebSite\\MovieWebSite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alperen\\source\\repos\\MovieWebSite\\MovieWebSite\\MovieWebSite.csproj",
+        "projectUniqueName": "C:\\Users\\Alperen\\source\\repos\\web_server_projects\\MovieWebSite\\MovieWebSite\\MovieWebSite.csproj",
         "projectName": "MovieWebSite",
-        "projectPath": "C:\\Users\\Alperen\\source\\repos\\MovieWebSite\\MovieWebSite\\MovieWebSite.csproj",
+        "projectPath": "C:\\Users\\Alperen\\source\\repos\\web_server_projects\\MovieWebSite\\MovieWebSite\\MovieWebSite.csproj",
         "packagesPath": "C:\\Users\\Alperen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alperen\\source\\repos\\MovieWebSite\\MovieWebSite\\obj\\",
+        "outputPath": "C:\\Users\\Alperen\\source\\repos\\web_server_projects\\MovieWebSite\\MovieWebSite\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alperen\\AppData\\Roaming\\NuGet\\NuGet.Config",

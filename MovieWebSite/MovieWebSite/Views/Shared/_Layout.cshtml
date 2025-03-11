@@ -25,6 +25,21 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
+                        <li class="nav-item">
+                            <h2>@ViewBag.WelcomeMessage</h2>
+                            @if (ViewBag.IsLoggedIn)
+                            {
+                                <!-- Kullanıcı giriş yaptıysa Logout Butonu -->
+                                <form method="post" asp-controller="Login" asp-action="Logout">
+                                    <button type="submit">Logout</button>
+                                </form>
+                            }
+                            else
+                            {
+                                <!-- Kullanıcı giriş yapmadıysa Login bağlantısı -->
+                                <a href="@Url.Action("Login", "Login")">Login</a>
+                            }
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -39,6 +54,7 @@
     <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2025 - MovieWebSite - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+  
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

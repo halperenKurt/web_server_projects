@@ -1,0 +1,33 @@
+﻿@model Movie
+<div class="container">
+
+    <!-- Portfolio Item Heading -->
+    <h1 class="my-4">
+        Page Heading
+        <small>Secondary Text</small>
+    </h1>
+
+    <!-- Portfolio Item Row -->
+    <div class="row">
+
+        <div class="col-md-8">
+            <img class="img-fluid" src="https://via.placeholder.com/750x500" alt="">
+        </div>
+
+        <div class="col-md-4">
+            <h3 class="my-3">@Model.Title</h3>
+            <p class="my-3"><b>Author:</b>@Model.Director</p>
+            <h6 class="my-3">Stars</h6>
+            @foreach (var star in Model.Stars)
+            {
+                <ul>
+                    <li>@star</li>
+                
+                </ul>
+            }
+            <p class="my-3"><b>Release Year:</b> @Model.ReleaseYear</p>
+        </div>
+
+    </div>
+</div>
+

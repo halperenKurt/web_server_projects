@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jcLz1Voll1spcmVQn6m+aP2hfGKFKUHbIAXcZkVlaM/UEKPfCF4uyKWpxK8ETzA1aidKbrncOCzSg0dUlrNQ+Q==",
+  "dgSpecHash": "dKymBWTBc/uEvCFIJhxCm2XgSWio7MjBkV+MmhDt5u+qqItWKMHHQ4qZmSNP870IWqGnknzUUdKKpTdhnF4QDg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alperen\\source\\repos\\MovieWebSite\\MovieWebSite\\MovieWebSite.csproj",
+  "projectFilePath": "C:\\Users\\Alperen\\source\\repos\\web_server_projects\\MovieWebSite\\MovieWebSite\\MovieWebSite.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
