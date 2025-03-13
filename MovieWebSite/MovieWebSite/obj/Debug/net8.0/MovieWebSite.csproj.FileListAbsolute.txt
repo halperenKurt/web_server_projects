@@ -29,3 +29,34 @@ C:\Users\Alperen\Source\Repos\web_server_projects\MovieWebSite\MovieWebSite\obj\
 C:\Users\Alperen\Source\Repos\web_server_projects\MovieWebSite\MovieWebSite\obj\Debug\net8.0\MovieWebSite.pdb
 C:\Users\Alperen\source\repos\web_server_projects\MovieWebSite\MovieWebSite\obj\Debug\net8.0\MovieWebSite.genruntimeconfig.cache
 C:\Users\Alperen\source\repos\web_server_projects\MovieWebSite\MovieWebSite\obj\Debug\net8.0\ref\MovieWebSite.dll
+C:\Users\Emirhan\OneDrive - Anadolu Üniversitesi\Masaüstü\WebServerOdev\web_server_projects\MovieWebSite\MovieWebSite\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Emirhan\OneDrive - Anadolu Üniversitesi\Masaüstü\WebServerOdev\web_server_projects\MovieWebSite\MovieWebSite\bin\Debug\net8.0\appsettings.json
+C:\Users\Emirhan\OneDrive - Anadolu Üniversitesi\Masaüstü\WebServerOdev\web_server_projects\MovieWebSite\MovieWebSite\bin\Debug\net8.0\MovieWebSite.staticwebassets.runtime.json
+C:\Users\Emirhan\OneDrive - Anadolu Üniversitesi\Masaüstü\WebServerOdev\web_server_projects\MovieWebSite\MovieWebSite\bin\Debug\net8.0\MovieWebSite.exe
+C:\Users\Emirhan\OneDrive - Anadolu Üniversitesi\Masaüstü\WebServerOdev\web_server_projects\MovieWebSite\MovieWebSite\bin\Debug\net8.0\MovieWebSite.deps.json
+C:\Users\Emirhan\OneDrive - Anadolu Üniversitesi\Masaüstü\WebServerOdev\web_server_projects\MovieWebSite\MovieWebSite\bin\Debug\net8.0\MovieWebSite.runtimeconfig.json
+C:\Users\Emirhan\OneDrive - Anadolu Üniversitesi\Masaüstü\WebServerOdev\web_server_projects\MovieWebSite\MovieWebSite\bin\Debug\net8.0\MovieWebSite.dll
+C:\Users\Emirhan\OneDrive - Anadolu Üniversitesi\Masaüstü\WebServerOdev\web_server_projects\MovieWebSite\MovieWebSite\bin\Debug\net8.0\MovieWebSite.pdb
+C:\Users\Emirhan\OneDrive - Anadolu Üniversitesi\Masaüstü\WebServerOdev\web_server_projects\MovieWebSite\MovieWebSite\obj\Debug\net8.0\MovieWebSite.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emirhan\OneDrive - Anadolu Üniversitesi\Masaüstü\WebServerOdev\web_server_projects\MovieWebSite\MovieWebSite\obj\Debug\net8.0\MovieWebSite.AssemblyInfoInputs.cache
+C:\Users\Emirhan\OneDrive - Anadolu Üniversitesi\Masaüstü\WebServerOdev\web_server_projects\MovieWebSite\MovieWebSite\obj\Debug\net8.0\MovieWebSite.AssemblyInfo.cs
+C:\Users\Emirhan\OneDrive - Anadolu Üniversitesi\Masaüstü\WebServerOdev\web_server_projects\MovieWebSite\MovieWebSite\obj\Debug\net8.0\MovieWebSite.csproj.CoreCompileInputs.cache
+C:\Users\Emirhan\OneDrive - Anadolu Üniversitesi\Masaüstü\WebServerOdev\web_server_projects\MovieWebSite\MovieWebSite\obj\Debug\net8.0\MovieWebSite.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Emirhan\OneDrive - Anadolu Üniversitesi\Masaüstü\WebServerOdev\web_server_projects\MovieWebSite\MovieWebSite\obj\Debug\net8.0\MovieWebSite.RazorAssemblyInfo.cache
+C:\Users\Emirhan\OneDrive - Anadolu Üniversitesi\Masaüstü\WebServerOdev\web_server_projects\MovieWebSite\MovieWebSite\obj\Debug\net8.0\MovieWebSite.RazorAssemblyInfo.cs
+C:\Users\Emirhan\OneDrive - Anadolu Üniversitesi\Masaüstü\WebServerOdev\web_server_projects\MovieWebSite\MovieWebSite\obj\Debug\net8.0\MovieWebSite.sourcelink.json
+C:\Users\Emirhan\OneDrive - Anadolu Üniversitesi\Masaüstü\WebServerOdev\web_server_projects\MovieWebSite\MovieWebSite\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Emirhan\OneDrive - Anadolu Üniversitesi\Masaüstü\WebServerOdev\web_server_projects\MovieWebSite\MovieWebSite\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Emirhan\OneDrive - Anadolu Üniversitesi\Masaüstü\WebServerOdev\web_server_projects\MovieWebSite\MovieWebSite\obj\Debug\net8.0\staticwebassets\msbuild.MovieWebSite.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Emirhan\OneDrive - Anadolu Üniversitesi\Masaüstü\WebServerOdev\web_server_projects\MovieWebSite\MovieWebSite\obj\Debug\net8.0\staticwebassets\msbuild.build.MovieWebSite.props
+C:\Users\Emirhan\OneDrive - Anadolu Üniversitesi\Masaüstü\WebServerOdev\web_server_projects\MovieWebSite\MovieWebSite\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MovieWebSite.props
+C:\Users\Emirhan\OneDrive - Anadolu Üniversitesi\Masaüstü\WebServerOdev\web_server_projects\MovieWebSite\MovieWebSite\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MovieWebSite.props
+C:\Users\Emirhan\OneDrive - Anadolu Üniversitesi\Masaüstü\WebServerOdev\web_server_projects\MovieWebSite\MovieWebSite\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Emirhan\OneDrive - Anadolu Üniversitesi\Masaüstü\WebServerOdev\web_server_projects\MovieWebSite\MovieWebSite\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Emirhan\OneDrive - Anadolu Üniversitesi\Masaüstü\WebServerOdev\web_server_projects\MovieWebSite\MovieWebSite\obj\Debug\net8.0\scopedcss\bundle\MovieWebSite.styles.css
+C:\Users\Emirhan\OneDrive - Anadolu Üniversitesi\Masaüstü\WebServerOdev\web_server_projects\MovieWebSite\MovieWebSite\obj\Debug\net8.0\scopedcss\projectbundle\MovieWebSite.bundle.scp.css
+C:\Users\Emirhan\OneDrive - Anadolu Üniversitesi\Masaüstü\WebServerOdev\web_server_projects\MovieWebSite\MovieWebSite\obj\Debug\net8.0\MovieWebSite.dll
+C:\Users\Emirhan\OneDrive - Anadolu Üniversitesi\Masaüstü\WebServerOdev\web_server_projects\MovieWebSite\MovieWebSite\obj\Debug\net8.0\refint\MovieWebSite.dll
+C:\Users\Emirhan\OneDrive - Anadolu Üniversitesi\Masaüstü\WebServerOdev\web_server_projects\MovieWebSite\MovieWebSite\obj\Debug\net8.0\MovieWebSite.pdb
+C:\Users\Emirhan\OneDrive - Anadolu Üniversitesi\Masaüstü\WebServerOdev\web_server_projects\MovieWebSite\MovieWebSite\obj\Debug\net8.0\MovieWebSite.genruntimeconfig.cache
+C:\Users\Emirhan\OneDrive - Anadolu Üniversitesi\Masaüstü\WebServerOdev\web_server_projects\MovieWebSite\MovieWebSite\obj\Debug\net8.0\ref\MovieWebSite.dll
