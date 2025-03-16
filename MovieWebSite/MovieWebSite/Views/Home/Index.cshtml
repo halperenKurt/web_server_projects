@@ -1,28 +1,66 @@
-﻿@{
+﻿@model List<Movie>
+
+@{
         ViewData["Title"] = "Home Page";
 }
 
 <div class="container mt-4">
-    <h2 class="text-center mb-4">Film Listesi</h2>
-      
+    <div>
+        <h2 class="text-center mb-4">Film Listesi</h2>
 
+        @if (ViewBag.IsLoggedIn == false)
+        {
+        <button class="btn btn-danger mb-4" data-bs-toggle="modal" data-bs-target="#loginModal">My Cart</button>
+        }
+        else
+        {
+        <a href="@Url.Action("Index", "Cart")" class="btn btn-primary">My Cart</a>
+        }
+
+        <!-- Giriş Uyarı Modalı -->
+        <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="loginModalLabel">Uyarı</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Lütfen giriş yapınız!
+                    </div>
+                    <div class="modal-footer">
+                        <a href="@Url.Action("Login", "Login")" class="btn btn-primary">Giriş Yap</a>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Film Listesi -->
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
         @foreach (var movie in Model)
         {
         <div class="col">
             <div class="card shadow-lg">
-                <img src="@(string.IsNullOrEmpty(movie.ImageUrl) ? "/images/default-movie.jpg" : movie.ImageUrl)"
-                     class="card-img-top"
-                     alt="@movie.Title"
-                     style="height: 300px; object-fit: cover;">
+                <img src="@movie.ImageUrl" class="card-img-top" alt="@movie.Title" style="height: 300px; object-fit: cover;">
                 <div class="card-body">
                     <h5 class="card-title">@movie.Title (@movie.ReleaseYear)</h5>
                     <p class="card-text"><strong>Yönetmen:</strong> @movie.Director</p>
 
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                            <a href="/Movie/Details/@movie.MovieId" class="btn btn-sm btn-primary">Detaylar</a>
-                            <a href="/Movie/Edit/@movie.MovieId" class="btn btn-sm btn-warning">Düzenle</a>
+                            <a href="@Url.Action("Detail", "Movie", new { id = movie.MovieId })" class="btn btn-sm btn-primary">Detaylar</a>
+
+                            
+                            @if (ViewBag.IsLoggedIn == false)
+        {
+                            <button class="btn btn-danger mb-4" data-bs-toggle="modal" data-bs-target="#loginModal">Add to Cart</button>
+        }
+        else
+        {
+                            <button class="btn btn-sm btn-success" data-movie-id="@movie.MovieId">Add to Cart</button>
+        }
                         </div>
                     </div>
                 </div>
@@ -31,3 +69,44 @@
         }
     </div>
 </div>
+
+<!-- Pop-up Bilgilendirme Modalı -->
+<div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="cartModalLabel">Bilgilendirme</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p id="cartModalMessage"></p> <!-- AJAX ile mesaj buraya gelecek -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery ve AJAX -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        // "Add to Cart" butonlarına tıklanma event'ini doğru şekilde bağla
+        $(".btn-success").on("click", function () {
+            var movieId = $(this).data("movie-id"); // data-movie-id özelliğini al
+
+            $.ajax({
+                url: "/Cart/AddToCart", // İlgili Controller'a yönlendir
+                type: "POST",
+                data: { id: movieId }, // Film id'sini gönder
+                success: function (response) {
+                    // Modal'a mesajı ekle
+                    $("#cartModalMessage").text(response.message);
+                    // Modal'ı göster
+                    $("#cartModal").modal("show");
+                },
+                error: function () {
+                    alert("Bir hata oluştu!");
+                }
+            });
+        });
+    });
+</script>

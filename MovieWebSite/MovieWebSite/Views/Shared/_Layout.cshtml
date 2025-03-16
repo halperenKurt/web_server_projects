@@ -30,7 +30,7 @@
 
                             @if (ViewBag.IsLoggedIn == true)
         {
-                            <!-- Kullanıcı giriş yapmışsa Hoş geldiniz mesajı ve çıkış yap butonu -->
+                            <!-- Kullanıcı giriş yapmışsa Hoş geldiniz mesajı ve çıkış butonu -->
                             <div class="alert alert-info">
                                 <strong>@ViewBag.WelcomeMessage</strong>
                             </div>
@@ -41,7 +41,7 @@
                             <a href="@Url.Action("Login", "Login")" class="btn btn-primary">Giriş Yap</a>
         }
         
-
+                            
                         </li>
                     </ul>
                 </div>

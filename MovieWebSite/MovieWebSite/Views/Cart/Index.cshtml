@@ -1,0 +1,32 @@
+﻿@model List<Movie>
+
+<h2>My Cart</h2>
+
+@if (!Model.Any())
+        {
+<p>Sepetiniz boş.</p>
+        }
+        else
+        {
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    @foreach (var movie in Model)
+        {
+    <div class="col">
+        <div class="card shadow-lg">
+            <img src="@movie.ImageUrl" class="card-img-top" alt="@movie.Title"
+                 style="height: 300px; object-fit: cover;">
+            <div class="card-body">
+                <h5 class="card-title">@movie.Title (@movie.ReleaseYear)</h5>
+                <p class="card-text"><strong>Yönetmen:</strong> @movie.Director</p>
+
+                <!-- Filmi kaldırmak için form -->
+                <form method="post" action="@Url.Action("RemoveFromCart", "Cart")">
+                    <input type="hidden" name="id" value="@movie.MovieId" />
+                    <button type="submit" class="btn btn-danger">Remove from Cart</button>
+                </form>
+            </div>
+        </div>
+    </div>
+        }
+</div>
+        }

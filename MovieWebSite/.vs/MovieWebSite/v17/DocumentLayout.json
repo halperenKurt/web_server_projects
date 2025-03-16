@@ -7,32 +7,64 @@
       "RelativeMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|solutionrelative:moviewebsite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|c:\\users\\emirhan\\onedrive - anadolu \u00FCniversitesi\\masa\u00FCst\u00FC\\webserverodev\\web_server_projects\\moviewebsite\\moviewebsite\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|solutionrelative:moviewebsite\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|c:\\users\\emirhan\\onedrive - anadolu \u00FCniversitesi\\masa\u00FCst\u00FC\\webserverodev\\web_server_projects\\moviewebsite\\moviewebsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|solutionrelative:moviewebsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|c:\\users\\emirhan\\onedrive - anadolu \u00FCniversitesi\\masa\u00FCst\u00FC\\webserverodev\\web_server_projects\\moviewebsite\\moviewebsite\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|solutionrelative:moviewebsite\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|c:\\users\\emirhan\\onedrive - anadolu \u00FCniversitesi\\masa\u00FCst\u00FC\\webserverodev\\web_server_projects\\moviewebsite\\moviewebsite\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|solutionrelative:moviewebsite\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|c:\\users\\emirhan\\onedrive - anadolu \u00FCniversitesi\\masa\u00FCst\u00FC\\webserverodev\\web_server_projects\\moviewebsite\\moviewebsite\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|solutionrelative:moviewebsite\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|c:\\users\\emirhan\\onedrive - anadolu \u00FCniversitesi\\masa\u00FCst\u00FC\\webserverodev\\web_server_projects\\moviewebsite\\moviewebsite\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|solutionrelative:moviewebsite\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|c:\\users\\emirhan\\onedrive - anadolu \u00FCniversitesi\\masa\u00FCst\u00FC\\webserverodev\\web_server_projects\\moviewebsite\\moviewebsite\\services\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|solutionrelative:moviewebsite\\services\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|c:\\users\\emirhan\\onedrive - anadolu \u00FCniversitesi\\masa\u00FCst\u00FC\\webserverodev\\web_server_projects\\moviewebsite\\moviewebsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|solutionrelative:moviewebsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|c:\\users\\emirhan\\onedrive - anadolu \u00FCniversitesi\\masa\u00FCst\u00FC\\webserverodev\\web_server_projects\\moviewebsite\\moviewebsite\\views\\movie\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|solutionrelative:moviewebsite\\views\\movie\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|c:\\users\\emirhan\\onedrive - anadolu \u00FCniversitesi\\masa\u00FCst\u00FC\\webserverodev\\web_server_projects\\moviewebsite\\moviewebsite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|solutionrelative:moviewebsite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|c:\\users\\emirhan\\onedrive - anadolu \u00FCniversitesi\\masa\u00FCst\u00FC\\webserverodev\\web_server_projects\\moviewebsite\\moviewebsite\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|solutionrelative:moviewebsite\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|c:\\users\\emirhan\\onedrive - anadolu \u00FCniversitesi\\masa\u00FCst\u00FC\\webserverodev\\web_server_projects\\moviewebsite\\moviewebsite\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|solutionrelative:moviewebsite\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|c:\\users\\emirhan\\onedrive - anadolu \u00FCniversitesi\\masa\u00FCst\u00FC\\webserverodev\\web_server_projects\\moviewebsite\\moviewebsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|solutionrelative:moviewebsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|c:\\users\\emirhan\\onedrive - anadolu \u00FCniversitesi\\masa\u00FCst\u00FC\\webserverodev\\web_server_projects\\moviewebsite\\moviewebsite\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|solutionrelative:moviewebsite\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|c:\\users\\emirhan\\onedrive - anadolu \u00FCniversitesi\\masa\u00FCst\u00FC\\webserverodev\\web_server_projects\\moviewebsite\\moviewebsite\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|solutionrelative:moviewebsite\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|c:\\users\\emirhan\\onedrive - anadolu \u00FCniversitesi\\masa\u00FCst\u00FC\\webserverodev\\web_server_projects\\moviewebsite\\moviewebsite\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|solutionrelative:moviewebsite\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|c:\\users\\emirhan\\onedrive - anadolu \u00FCniversitesi\\masa\u00FCst\u00FC\\webserverodev\\web_server_projects\\moviewebsite\\moviewebsite\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|solutionrelative:moviewebsite\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|c:\\users\\emirhan\\onedrive - anadolu \u00FCniversitesi\\masa\u00FCst\u00FC\\webserverodev\\web_server_projects\\moviewebsite\\moviewebsite\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|solutionrelative:moviewebsite\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|c:\\users\\emirhan\\onedrive - anadolu \u00FCniversitesi\\masa\u00FCst\u00FC\\webserverodev\\web_server_projects\\moviewebsite\\moviewebsite\\services\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|solutionrelative:moviewebsite\\services\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|c:\\users\\emirhan\\onedrive - anadolu \u00FCniversitesi\\masa\u00FCst\u00FC\\webserverodev\\web_server_projects\\moviewebsite\\moviewebsite\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,22 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|c:\\users\\emirhan\\onedrive - anadolu \u00FCniversitesi\\masa\u00FCst\u00FC\\webserverodev\\web_server_projects\\moviewebsite\\moviewebsite\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|solutionrelative:moviewebsite\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|c:\\users\\emirhan\\onedrive - anadolu \u00FCniversitesi\\masa\u00FCst\u00FC\\webserverodev\\web_server_projects\\moviewebsite\\moviewebsite\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|solutionrelative:moviewebsite\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|c:\\users\\emirhan\\onedrive - anadolu \u00FCniversitesi\\masa\u00FCst\u00FC\\webserverodev\\web_server_projects\\moviewebsite\\moviewebsite\\views\\movie\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|solutionrelative:moviewebsite\\views\\movie\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|c:\\users\\emirhan\\onedrive - anadolu \u00FCniversitesi\\masa\u00FCst\u00FC\\webserverodev\\web_server_projects\\moviewebsite\\moviewebsite\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|solutionrelative:moviewebsite\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|c:\\users\\emirhan\\onedrive - anadolu \u00FCniversitesi\\masa\u00FCst\u00FC\\webserverodev\\web_server_projects\\moviewebsite\\moviewebsite\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|solutionrelative:moviewebsite\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2B734CA-C305-466F-89F5-801332C38447}|MovieWebSite\\MovieWebSite.csproj|c:\\users\\emirhan\\onedrive - anadolu \u00FCniversitesi\\masa\u00FCst\u00FC\\webserverodev\\web_server_projects\\moviewebsite\\moviewebsite\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -82,80 +98,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Program.cs",
-              "RelativeDocumentMoniker": "MovieWebSite\\Program.cs",
-              "ToolTip": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Program.cs",
-              "RelativeToolTip": "MovieWebSite\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T17:33:46.011Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MovieController.cs",
               "DocumentMoniker": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Controllers\\MovieController.cs",
               "RelativeDocumentMoniker": "MovieWebSite\\Controllers\\MovieController.cs",
               "ToolTip": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Controllers\\MovieController.cs",
               "RelativeToolTip": "MovieWebSite\\Controllers\\MovieController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAJAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAC0AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T17:25:01.289Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "MovieWebSite\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "MovieWebSite\\Models\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T17:24:59.609Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "MovieWebSite\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "MovieWebSite\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-12T17:24:53.537Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Detail.cshtml",
-              "DocumentMoniker": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Views\\Movie\\Detail.cshtml",
-              "RelativeDocumentMoniker": "MovieWebSite\\Views\\Movie\\Detail.cshtml",
-              "ToolTip": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Views\\Movie\\Detail.cshtml",
-              "RelativeToolTip": "MovieWebSite\\Views\\Movie\\Detail.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-12T17:24:31.24Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Movie.cs",
-              "DocumentMoniker": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Models\\Movie.cs",
-              "RelativeDocumentMoniker": "MovieWebSite\\Models\\Movie.cs",
-              "ToolTip": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Models\\Movie.cs",
-              "RelativeToolTip": "MovieWebSite\\Models\\Movie.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T17:08:17.49Z"
             },
             {
               "$type": "Document",
@@ -165,39 +121,170 @@
               "RelativeDocumentMoniker": "MovieWebSite\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Controllers\\HomeController.cs",
               "RelativeToolTip": "MovieWebSite\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAwEMAAAAAAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T17:06:00.932Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Views\\Movie\\Detail.cshtml",
+              "RelativeDocumentMoniker": "MovieWebSite\\Views\\Movie\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Views\\Movie\\Detail.cshtml",
+              "RelativeToolTip": "MovieWebSite\\Views\\Movie\\Detail.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-12T17:24:31.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "MovieWebSite\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Controllers\\CartController.cs",
+              "RelativeToolTip": "MovieWebSite\\Controllers\\CartController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAYwDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T11:28:05.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "MovieWebSite\\Controllers\\LoginController.cs",
               "ToolTip": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Controllers\\LoginController.cs",
               "RelativeToolTip": "MovieWebSite\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAQwDYAAAAAAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowBUAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T17:00:22.657Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MovieWebSite\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MovieWebSite\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACIAAAAAAAAAAAAowEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-12T17:00:18.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Views\\Movie\\Index.cshtml",
+              "RelativeDocumentMoniker": "MovieWebSite\\Views\\Movie\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Views\\Movie\\Index.cshtml",
+              "RelativeToolTip": "MovieWebSite\\Views\\Movie\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-12T17:24:32.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MovieWebSite\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MovieWebSite\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAACUAAAAAAAAAAAAkwDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-12T17:06:55.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "MovieWebSite\\Views\\Login\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "MovieWebSite\\Views\\Login\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-12T17:04:04.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Program.cs",
+              "RelativeDocumentMoniker": "MovieWebSite\\Program.cs",
+              "ToolTip": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Program.cs",
+              "RelativeToolTip": "MovieWebSite\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T17:33:46.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "MovieWebSite\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "MovieWebSite\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-12T17:24:45.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "MovieWebSite\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "MovieWebSite\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T11:29:00.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "MovieService.cs",
               "DocumentMoniker": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Services\\MovieService.cs",
               "RelativeDocumentMoniker": "MovieWebSite\\Services\\MovieService.cs",
               "ToolTip": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Services\\MovieService.cs",
               "RelativeToolTip": "MovieWebSite\\Services\\MovieService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T17:40:40.024Z"
+              "WhenOpened": "2025-03-12T17:40:40.024Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "MovieWebSite\\Services\\CartService.cs",
+              "ToolTip": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Services\\CartService.cs",
+              "RelativeToolTip": "MovieWebSite\\Services\\CartService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T09:58:48.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "IMovieService.cs",
               "DocumentMoniker": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Services\\IMovieService.cs",
               "RelativeDocumentMoniker": "MovieWebSite\\Services\\IMovieService.cs",
@@ -209,55 +296,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "MovieWebSite\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "MovieWebSite\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-12T17:06:55.52Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "MovieWebSite\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MovieWebSite\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-12T17:00:18.448Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Views\\Movie\\Index.cshtml",
-              "RelativeDocumentMoniker": "MovieWebSite\\Views\\Movie\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Views\\Movie\\Index.cshtml",
-              "RelativeToolTip": "MovieWebSite\\Views\\Movie\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-12T17:24:32.4Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "MovieWebSite\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "MovieWebSite\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\appsettings.json",
+              "RelativeDocumentMoniker": "MovieWebSite\\appsettings.json",
+              "ToolTip": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\appsettings.json",
+              "RelativeToolTip": "MovieWebSite\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-12T17:24:45.048Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-15T11:34:40.038Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "MovieWebSite\\Models\\Movie.cs",
+              "ToolTip": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Models\\Movie.cs",
+              "RelativeToolTip": "MovieWebSite\\Models\\Movie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T17:08:17.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "MovieWebSite\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "MovieWebSite\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-12T17:24:53.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "MovieWebSite\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "MovieWebSite\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T17:24:59.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "MovieWebSite\\Views\\Shared\\Error.cshtml",
@@ -269,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "MovieWebSite\\Views\\_ViewImports.cshtml",
@@ -281,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "MovieWebSite\\Views\\_ViewStart.cshtml",
@@ -290,18 +377,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-12T17:24:41.233Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Views\\Login\\Login.cshtml",
-              "RelativeDocumentMoniker": "MovieWebSite\\Views\\Login\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Emirhan\\OneDrive - Anadolu \u00DCniversitesi\\Masa\u00FCst\u00FC\\WebServerOdev\\web_server_projects\\MovieWebSite\\MovieWebSite\\Views\\Login\\Login.cshtml",
-              "RelativeToolTip": "MovieWebSite\\Views\\Login\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-12T17:04:04.01Z"
             }
           ]
         }

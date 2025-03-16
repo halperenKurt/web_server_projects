@@ -23,7 +23,7 @@ public class LoginController : Controller
     {
         Expires = DateTime.UtcNow.AddMonths(1),  // Çerez 1 ay boyunca geçerli
         HttpOnly = true,                         // XSS saldırılarına karşı koruma
-        Secure = Request.IsHttps,                // HTTPS üzerinden çalışmasını sağlar (Geliştirme ortamında HTTP olabilir)
+        Secure = false,               // HTTPS üzerinden çalışmasını sağlar (Geliştirme ortamında HTTP olabilir)
         SameSite = SameSiteMode.Strict           // CSRF koruması için
     };
 
