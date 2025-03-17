@@ -1,66 +1,99 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MovieWebSite.Models;
 using MovieWebSite.Services;
-using System.Collections.Generic;
-using System.Linq;
+using System.Text.Json;
 
 namespace MovieWebSite.Controllers
 {
     public class MovieController : Controller
     {
-        // Filmler için örnek veri
-        private static List<Movie> movies = new List<Movie>
-        {
-            new Movie {MovieId = 1, Title = "X-Men: The Last Stand", Director = "Brett Ratner", Stars = new[] { "Patrick Stewart", "Hugh Jackman", "Halle Berry" }, ReleaseYear = 2006, ImageUrl="https://upload.wikimedia.org/wikipedia/tr/7/74/Spider-Man547.jpg"},
-            new Movie {MovieId = 2, Title = "Spider Man 2", Director = "Sam Raimi", Stars = new[] { "Tobey Maguire", "Kirsten Dunst", "Alfred Molina" }, ReleaseYear = 2004, ImageUrl="https://upload.wikimedia.org/wikipedia/tr/7/74/Spider-Man547.jpg"},
-            new Movie {MovieId = 3, Title = "Spider Man 3", Director = "Sam Raimi", Stars = new[] { "Tobey Maguire", "Kirsten Dunst", "Topher Grace" }, ReleaseYear = 2007, ImageUrl="https://upload.wikimedia.org/wikipedia/tr/7/74/Spider-Man547.jpg"},
-            new Movie {MovieId = 4, Title = "Valkyrie", Director = "Bryan Singer", Stars = new[] { "Tom Cruise", "Bill Nighy", "Carice van Houten" }, ReleaseYear = 2008, ImageUrl = "https://upload.wikimedia.org/wikipedia/tr/7/74/Spider-Man547.jpg"},
-            new Movie {MovieId = 5, Title = "Gladiator", Director = "Ridley Scott", Stars = new[] { "Russell Crowe", "Joaquin Phoenix", "Connie Nielsen" }, ReleaseYear = 2000, ImageUrl="https://upload.wikimedia.org/wikipedia/tr/7/74/Spider-Man547.jpg"}
-        };
         private readonly IMovieService _movieService;
 
-        // Constructor with dependency injection
         public MovieController(IMovieService movieService)
         {
-        _movieService = movieService;
+            _movieService = movieService;
         }
 
-        // Film listesini gösteren metod
-        public IActionResult Index()
-        {
-        // Use HttpContext to get cookies
-        string firstName = Request.Cookies["session_userFirstName"];
-        string lastName = Request.Cookies["session_userLastName"];
-
-        if (!string.IsNullOrEmpty(firstName) && !string.IsNullOrEmpty(lastName))
-        {
-        ViewBag.WelcomeMessage = $"Welcome {firstName} {lastName}!";
-        ViewBag.IsLoggedIn = true; // Kullanıcı giriş yapmış
-        }
-        else
-        {
-        ViewBag.WelcomeMessage = "Welcome, Please Login";
-        ViewBag.IsLoggedIn = false; // Kullanıcı giriş yapmamış
-        }
-
-        return View();
-       
-        }
-
-        // Film detaylarını gösteren metod
         public IActionResult Detail(int id)
         {
-        
+            // Kullanıcı çerezlerini kontrol et
+            string firstName = Request.Cookies["session_userFirstName"];
+            string lastName = Request.Cookies["session_userLastName"];
 
-        // Film detaylarını getir
-        var movie = movies.FirstOrDefault(m => m.MovieId == id);  // ID'ye göre filmi buluyoruz
-        if (movie == null)
+            if (!string.IsNullOrEmpty(firstName) && !string.IsNullOrEmpty(lastName))
+            {
+                ViewBag.WelcomeMessage = $"Welcome {firstName} {lastName}!";
+                ViewBag.IsLoggedIn = true;
+            }
+            else
+            {
+                ViewBag.WelcomeMessage = "Welcome, Please Login";
+                ViewBag.IsLoggedIn = false;
+            }
+
+            // Filmi ID'ye göre al
+            var movie = _movieService.GetMovies().FirstOrDefault(m => m.MovieId == id);
+
+            if (movie == null)
+            {
+                return NotFound();
+            }
+
+            // Sepet oturumunu kontrol et
+            var cartJson = HttpContext.Session.GetString("Cart");
+            var cartItems = string.IsNullOrEmpty(cartJson) ? new List<Movie>() : JsonSerializer.Deserialize<List<Movie>>(cartJson);
+
+            // Film sepette mi kontrol et
+            ViewBag.IsInCart = cartItems.Any(m => m.MovieId == id);
+
+            return View(movie);
+        }
+
+        [HttpPost]
+        public IActionResult AddToCart(int id)
         {
-        return NotFound();  // Film bulunamazsa 404 döndürüyoruz
+            var cartJson = HttpContext.Session.GetString("Cart");
+            var cartItems = string.IsNullOrEmpty(cartJson) ? new List<Movie>() : JsonSerializer.Deserialize<List<Movie>>(cartJson);
+
+            var movieToAdd = _movieService.GetMovies().FirstOrDefault(m => m.MovieId == id);
+
+            if (movieToAdd != null)
+            {
+                if (!cartItems.Any(m => m.MovieId == movieToAdd.MovieId))
+                {
+                    cartItems.Add(movieToAdd);
+                    HttpContext.Session.SetString("Cart", JsonSerializer.Serialize(cartItems));
+                    return Json(new { message = $"{movieToAdd.Title} sepete eklendi!", success = true });
+                }
+                else
+                {
+                    return Json(new { message = "Bu film zaten sepette!", success = false });
+                }
+            }
+            return Json(new { message = "Film bulunamadı!", success = false });
         }
 
-        return View(movie);  // Film detaylarını view'a gönderiyoruz
-        }
+        [HttpPost]
+        public IActionResult RemoveFromCart(int id)
+        {
+            var cartJson = HttpContext.Session.GetString("Cart");
 
+            if (string.IsNullOrEmpty(cartJson))
+            {
+                return Json(new { message = "Sepet zaten boş!", success = false });
+            }
+
+            var cartItems = JsonSerializer.Deserialize<List<Movie>>(cartJson);
+            var movieToRemove = cartItems.FirstOrDefault(m => m.MovieId == id);
+
+            if (movieToRemove != null)
+            {
+                cartItems.Remove(movieToRemove);
+                HttpContext.Session.SetString("Cart", JsonSerializer.Serialize(cartItems));
+                return Json(new { message = $"{movieToRemove.Title} sepetten çıkarıldı!", success = true });
+            }
+
+            return Json(new { message = "Film bulunamadı!", success = false });
+        }
     }
 }

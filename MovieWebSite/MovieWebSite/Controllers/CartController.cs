@@ -8,110 +8,98 @@ namespace MovieWebSite.Controllers
     public class CartController : Controller
     {
         private readonly CartService _cartService;
-        private readonly IMovieService _movieService; // IMovieService'i enjekte ediyoruz
+        private readonly IMovieService _movieService;
 
         public CartController(CartService cartService, IMovieService movieService)
         {
-        _cartService = cartService;
-        _movieService = movieService; // Bu satırı ekledik
+            _cartService = cartService;
+            _movieService = movieService;
         }
 
         public IActionResult Index()
         {
-        string firstName = Request.Cookies["session_userFirstName"];
-        string lastName = Request.Cookies["session_userLastName"];
+            // Kullanıcı çerezlerini kontrol et
+            string firstName = Request.Cookies["session_userFirstName"];
+            string lastName = Request.Cookies["session_userLastName"];
 
-        if (!string.IsNullOrEmpty(firstName) && !string.IsNullOrEmpty(lastName))
-        {
-        ViewBag.WelcomeMessage = $"Welcome {firstName} {lastName}!";
-        ViewBag.IsLoggedIn = true; // Kullanıcı giriş yapmış
-        }
-        else
-        {
-        ViewBag.WelcomeMessage = "Welcome, Please Login";
-        ViewBag.IsLoggedIn = false; // Kullanıcı giriş yapmamış
-        }
+            if (!string.IsNullOrEmpty(firstName) && !string.IsNullOrEmpty(lastName))
+            {
+                ViewBag.WelcomeMessage = $"Welcome {firstName} {lastName}!";
+                ViewBag.IsLoggedIn = true;
+            }
+            else
+            {
+                ViewBag.WelcomeMessage = "Welcome, Please Login";
+                ViewBag.IsLoggedIn = false;
+            }
 
-        // MovieService'ten film listesini alıyoruz
-        var movies = _movieService.GetMovies(); // Burada movies null olabilir mi?
+            // Filmleri MovieService'ten al
+            var movies = _movieService.GetMovies();
 
-        if (movies == null || !movies.Any())
-        {
-        // Eğer null veya boşsa, hata verebiliriz
-        ViewBag.Error = "Filmler alınırken bir hata oluştu!";
-        }
-        // Session'dan sepet verisini al
-        var cartJson = HttpContext.Session.GetString("Cart");
+            if (movies == null || !movies.Any())
+            {
+                ViewBag.Error = "Filmler alınırken bir hata oluştu!";
+            }
 
-        // Eğer sepet boşsa yeni bir liste oluştur
-        var cartItems = string.IsNullOrEmpty(cartJson) ? new List<Movie>() : JsonSerializer.Deserialize<List<Movie>>(cartJson);
+            // Session'dan sepet verisini al
+            var cartJson = HttpContext.Session.GetString("Cart");
+            var cartItems = string.IsNullOrEmpty(cartJson) ? new List<Movie>() : JsonSerializer.Deserialize<List<Movie>>(cartJson);
 
-        return View(cartItems); // View'a cartItems listesini gönderiyoruz
+            return View(cartItems);
         }
 
         [HttpPost]
         public IActionResult AddToCart(int id)
         {
-        var cartJson = HttpContext.Session.GetString("Cart");
+            var cartJson = HttpContext.Session.GetString("Cart");
+            var cartItems = string.IsNullOrEmpty(cartJson) ? new List<Movie>() : JsonSerializer.Deserialize<List<Movie>>(cartJson);
 
-        // Eğer sepet boşsa yeni bir liste oluştur
-        var cartItems = string.IsNullOrEmpty(cartJson) ? new List<Movie>() : JsonSerializer.Deserialize<List<Movie>>(cartJson);
+            var movieToAdd = _movieService.GetMovies().FirstOrDefault(m => m.MovieId == id);
 
-        // Filme sepeti eklemeden önce var mı diye kontrol et
-        var movieToAdd = _movieService.GetMovies().FirstOrDefault(m => m.MovieId == id); // MovieService'den filme ulaş
-
-        if (movieToAdd != null)
-        {
-        // Film zaten sepette varsa ekleme
-        if (!cartItems.Any(m => m.MovieId == movieToAdd.MovieId))
-        {
-        cartItems.Add(movieToAdd);
-        // Güncel sepeti Session'a kaydet
-        HttpContext.Session.SetString("Cart", JsonSerializer.Serialize(cartItems));
-
-        // Sepete ekledikten sonra herhangi bir mesajı döndürebiliriz
-        return Json(new { message = $"{movieToAdd.Title} sepete eklendi!" });
-        }
-        else
-        {
-        // Eğer film zaten sepette varsa bir uyarı mesajı döndür
-        return Json(new { message = "Bu film zaten sepette!" });
-        }
-        }
-        return Json(new { message = "Film bulunamadı!" });
+            if (movieToAdd != null)
+            {
+                if (!cartItems.Any(m => m.MovieId == movieToAdd.MovieId))
+                {
+                    cartItems.Add(movieToAdd);
+                    HttpContext.Session.SetString("Cart", JsonSerializer.Serialize(cartItems));
+                    return Json(new { message = $"{movieToAdd.Title} sepete eklendi!" });
+                }
+                else
+                {
+                    return Json(new { message = "Bu film zaten sepette!" });
+                }
+            }
+            return Json(new { message = "Film bulunamadı!" });
         }
 
-        [HttpPost]
         [HttpPost]
         public IActionResult RemoveFromCart(int id)
         {
-        var cartJson = HttpContext.Session.GetString("Cart");
+            var cartJson = HttpContext.Session.GetString("Cart");
 
-        if (string.IsNullOrEmpty(cartJson))
+            if (string.IsNullOrEmpty(cartJson))
+            {
+                return RedirectToAction("Index");
+            }
+
+            var cartItems = JsonSerializer.Deserialize<List<Movie>>(cartJson);
+            var movieToRemove = cartItems.FirstOrDefault(m => m.MovieId == id);
+
+            if (movieToRemove != null)
+            {
+                cartItems.Remove(movieToRemove);
+                HttpContext.Session.SetString("Cart", JsonSerializer.Serialize(cartItems));
+            }
+
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult Logout()
         {
-        return RedirectToAction("Index");
+            Response.Cookies.Delete("session_userFirstName");
+            Response.Cookies.Delete("session_userLastName");
+
+            return RedirectToAction("Index");
         }
-
-        // Sepeti deseralize et
-        var cartItems = JsonSerializer.Deserialize<List<Movie>>(cartJson);
-
-        // Filmi sepetten çıkar
-        var movieToRemove = cartItems.FirstOrDefault(m => m.MovieId == id);
-        if (movieToRemove != null)
-        {
-        cartItems.Remove(movieToRemove);
-        // Güncel sepeti tekrar Session'a kaydet
-        HttpContext.Session.SetString("Cart", JsonSerializer.Serialize(cartItems));
-        }
-
-        // Sepet sayfasına geri dön
-        return RedirectToAction("Index");
-        }
-
-
-       
-
-
-
     }
 }

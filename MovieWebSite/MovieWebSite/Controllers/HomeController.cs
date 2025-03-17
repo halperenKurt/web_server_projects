@@ -16,27 +16,26 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-    // Kullanýcý çerezlerini kontrol et
+    
     string firstName = Request.Cookies["session_userFirstName"];
     string lastName = Request.Cookies["session_userLastName"];
 
     if (!string.IsNullOrEmpty(firstName) && !string.IsNullOrEmpty(lastName))
     {
     ViewBag.WelcomeMessage = $"Welcome {firstName} {lastName}!";
-    ViewBag.IsLoggedIn = true; // Kullanýcý giriþ yapmýþ
+    ViewBag.IsLoggedIn = true; 
     }
     else
     {
     ViewBag.WelcomeMessage = "Welcome, Please Login";
-    ViewBag.IsLoggedIn = false; // Kullanýcý giriþ yapmamýþ
+    ViewBag.IsLoggedIn = false; 
     }
 
-    // MovieService'ten film listesini alýyoruz
-    var movies = _movieService.GetMovies(); // Burada movies null olabilir mi?
-
+    
+    var movies = _movieService.GetMovies();
     if (movies == null || !movies.Any())
     {
-    // Eðer null veya boþsa, hata verebiliriz
+  
     ViewBag.Error = "Filmler alýnýrken bir hata oluþtu!";
     }
 

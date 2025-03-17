@@ -2,27 +2,26 @@
 
 <div class="container mt-5">
 
-    <!-- Portfolio Item Heading -->
     <h1 class="my-4 text-center">
         @Model.Title
         <small class="text-muted">(@Model.ReleaseYear)</small>
     </h1>
 
-    <!-- Portfolio Item Row -->
+    
     <div class="row justify-content-center">
-        <!-- Film görselini daha büyük ve ortalanmış hale getirme -->
+        
         <div class="col-md-8 mb-4 text-center">
             <img src="@Model.ImageUrl" class="img-fluid rounded shadow-lg" alt="@Model.Title">
         </div>
 
-        <!-- Film bilgilerini ortalamak -->
+        
         <div class="col-md-4 text-center">
             <div class="card shadow-sm">
                 <div class="card-body">
                     <h3 class="card-title">@Model.Title</h3>
-                    <p class="card-text"><b>Yönetmen:</b> @Model.Director</p>
+                    <p class="card-text"><b>Author:</b> @Model.Director</p>
 
-                    <h5 class="my-3"><b>Başrol Oyuncuları:</b></h5>
+                    <h5 class="my-3"><b>Stars:</b></h5>
                     <ul class="list-unstyled">
                         @foreach (var star in Model.Stars)
         {
@@ -30,17 +29,16 @@
         }
                     </ul>
 
-                    <p class="my-3"><b>Çıkış Yılı:</b> @Model.ReleaseYear</p>
+                    <p class="my-3"><b>Release Year:</b> @Model.ReleaseYear</p>
 
-                    <!-- Sepete ekleme butonu -->
                     @if (ViewBag.IsLoggedIn != null && ViewBag.IsLoggedIn == false)
-        {
+                    {
                     <button class="btn btn-danger mb-4" data-bs-toggle="modal" data-bs-target="#loginModal">Add to Cart</button>
-        }
-        else
-        {
+                    }
+                    else
+                       {
                     <button class="btn btn-sm btn-success" data-movie-id="@Model.MovieId">Add to Cart</button>
-        }
+                    }
                 </div>
             </div>
         </div>
@@ -52,32 +50,31 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="cartModalLabel">Bilgilendirme</h5>
+                <h5 class="modal-title" id="cartModalLabel">Information</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p id="cartModalMessage"></p> <!-- AJAX ile mesaj buraya gelecek -->
+                <p id="cartModalMessage"></p>
             </div>
         </div>
     </div>
 </div>
 
-<!-- jQuery ve AJAX -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     $(document).ready(function () {
-        // "Add to Cart" butonlarına tıklanma event'ini doğru şekilde bağla
+        
         $(".btn-success").on("click", function () {
-            var movieId = $(this).data("movie-id"); // data-movie-id özelliğini al
+            var movieId = $(this).data("movie-id"); 
 
             $.ajax({
-                url: "/Cart/AddToCart", // İlgili Controller'a yönlendir
+                url: "/Cart/AddToCart", 
                 type: "POST",
-                data: { id: movieId }, // Film id'sini gönder
+                data: { id: movieId }, 
                 success: function (response) {
-                    // Modal'a mesajı ekle
+                    
                     $("#cartModalMessage").text(response.message);
-                    // Modal'ı göster
+                    
                     $("#cartModal").modal("show");
                 },
                 error: function () {
@@ -88,6 +85,6 @@
     });
 </script>
 
-<!-- Bootstrap ve Font Awesome -->
+
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
