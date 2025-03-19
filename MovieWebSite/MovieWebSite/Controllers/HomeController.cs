@@ -39,7 +39,7 @@ public class HomeController : Controller
     ViewBag.Error = "Filmler alýnýrken bir hata oluþtu!";
     }
 
-    return View(movies); // Filmleri View'a gönderiyoruz
+    return View(movies);
     }
 
     public IActionResult Privacy()
@@ -47,14 +47,14 @@ public class HomeController : Controller
     return View();
     }
 
-    // Kullanýcý çýkýþý yapacak (çerezleri temizle)
+  
     public IActionResult Logout()
     {
     // Çerezleri sil
     Response.Cookies.Delete("session_userFirstName");
     Response.Cookies.Delete("session_userLastName");
 
-    // Çýkýþ yaptýktan sonra ana sayfaya yönlendir
+
     return RedirectToAction("Index");
     }
 
